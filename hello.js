@@ -84,3 +84,8 @@ console.log(foods)
 //alter an entry
 foods[1] = 'cheesy popcorn'
 console.log(foods)
+
+foods[12] = 'spaghetti'
+console.log(foods)
+//Creates a symbol between each number in the array
+console.log(foods.join('---'))
