@@ -52,3 +52,35 @@ let lions = 4
 let tigers = 7
 let tigerPattern = 'striped'
 console.log(`There are ${lions} lions.`)
+
+foods = ['tacos','popcorn', 'nachos', 'burgers']
+
+foods.forEach(function(food, index){
+    console.log(index+1, food)
+})
+
+for(let f=0; f< foods.length; f++){
+    console.log(f+1, foods[f])
+}
+
+foods.forEach(function(food,index){
+    console.log(food)
+})
+//add to the end
+foods.push('carrots')
+//add to beginning
+foods.unshift('cheese')
+
+foods.forEach(function(food, index){
+    console.log(index+1, food)
+})
+console.log(foods)
+//remove fromt the end
+console.log(foods.pop())
+console.log(foods)
+//remove from the front
+console.log(foods.shift())
+console.log(foods)
+//alter an entry
+foods[1] = 'cheesy popcorn'
+console.log(foods)
